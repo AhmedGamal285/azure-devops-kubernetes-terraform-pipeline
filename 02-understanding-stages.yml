@@ -23,13 +23,13 @@ stages:
 
 - stage: QADeploy
   jobs:
-  - job: QADeploy-Job
+  - job: QADeploy_Job
     steps:
     - bash: echo QADeploy Job
 
 - stage: ProdDeploy
   jobs:
-  - job: ProdDeploy-Job
+  - job: ProdDeploy_Job
     steps:
     - bash: echo ProdDeploy Job
 
